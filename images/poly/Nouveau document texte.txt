@@ -1,0 +1,17 @@
+série 20 - 3 toiles same height - 8px margin
+série 30 - 3 toiles same height : 75% height - 8px margin
+série 40 - left & right toile : 85% height + toile milieu : 100% height - 8px margin
+
+
+
+bio Olivier en Anglais à format en html
+
+
+
+mettre le cursor en pointer sur les img du slider
+
+
+déroulement menus en $_SESSION
+
+
+bigPhotoAccueil.png à mettre en format capture.png

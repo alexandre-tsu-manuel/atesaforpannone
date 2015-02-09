@@ -1,0 +1,136 @@
+/* Général */
+*
+{
+	background-color: #000000;
+	color: white;
+}
+
+section
+{
+	margin-left: 300px;
+	position: absolute;
+	line-height: 1.5em;
+}
+
+em
+{
+	font-style: italic;
+}
+
+h1
+{
+	text-align: center;
+}
+
+body, html
+{
+	height: 100%;
+}
+
+.sectionRight
+{
+	margin-top: 2%;
+	margin-right: 5%;
+}
+
+/* Menu */
+nav
+{
+	float: left;
+	min-width: 230px;
+	color: white;
+	z-index: 1000;
+}
+
+nav .first, nav .first:visited
+{
+	font-size: 1.5em;
+	color: white;
+	text-decoration: none;
+	line-height: 2.5em;
+}
+
+nav .second, nav .second:visited
+{
+	font-size: 1.2em;
+	color: white;
+	text-decoration: none;
+	line-height: 1.5em;
+}
+
+nav .first:hover, nav .first:active, nav .second:hover, nav .second:active
+{
+	color: silver;
+	text-decoration: underline;
+}
+
+nav #langLink, nav #contactLink, nav #formatLink, nav #bioLink
+{
+	cursor: pointer;
+}
+
+nav ul
+{
+	list-style-type: none;
+	list-style-position: outside;
+}
+
+/* Accueil */
+#VDLA
+{
+	text-align: center;
+}
+
+/* Slider */
+#slider
+{
+	position: absolute;
+	left: 20%;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+}
+
+#arrowLeft, #arrowRight
+{
+	position: absolute;
+	z-index: 100;
+	width: 55px;
+}
+
+/* Dessins */
+#draws 
+{
+	margin: auto;
+	text-align: center;
+	left: 300px;
+	right: 100px;
+	position: absolute;
+	z-index: 50;
+}
+
+#draws img
+{
+	height: 200px;
+	width: 200px;
+	vertical-align: top;
+	border: solid 10px black;
+}
+
+#draws img:hover
+{
+	transform: scale(2.0);
+	-ms-transform: scale(2.0);
+	background: white;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+#draws img:focus, #draws img:active
+{
+	transform: scale(3.0);
+	-ms-transform: scale(3.0);
+	background: white;
+	transition: 0.5s;
+	cursor: pointer;
+}
